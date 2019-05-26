@@ -24,3 +24,7 @@ Credits:
 Raytwo: Overall help with Magikoopa assembly patching  
 TildeHat: Locating the necessary functions that we needed to patch out to make this happen  
 lipsum: General testing help and providing test save data  
+  
+    
+![Screenshot1](https://cdn.discordapp.com/attachments/448202199852646431/582304100272832533/unknown.png)  ![Screenshot2](https://cdn.discordapp.com/attachments/448202199852646431/582304131843227712/unknown.png)  
+![Screenshot3](https://cdn.discordapp.com/attachments/448202199852646431/582304173068910622/unknown.png)
