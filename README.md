@@ -19,3 +19,7 @@ Note: It is suggested the player still enter the first names patched here, as th
   
 To report any bugs or issues about names incorrectly appearing where they shouldn't, just open an issue on github and we can hopefully get it fixed.  
   
+Credits:  
+  
+Raytwo: Overall help with Magikoopa assembly patching  
+TildeHat: Locating the necessary functions that we needed to patch out to make this happen  
