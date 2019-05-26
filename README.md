@@ -9,7 +9,7 @@ P4 Protagonist - Yu Narukami
 P5 Protagonist - Ren Amamiya  
   
 Usage:  
-These files are meant to be used with a 3DS running the Luma3DS Custom Firmware.  
+These files are meant to be used with a 3DS running the Luma3DS Custom Firmware (be sure to enable game patching in the Luma3DS settings!).  
 Download the files from the release tab, and place the files on the root of your SD, the entire file structure should look as follows:  
   
 sd:/luma/titles/00040000001D7100/exheader.bin  
