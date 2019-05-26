@@ -23,3 +23,4 @@ Credits:
   
 Raytwo: Overall help with Magikoopa assembly patching  
 TildeHat: Locating the necessary functions that we needed to patch out to make this happen  
+lipsum: General testing help and providing test save data  
