@@ -1,0 +1,143 @@
+ReplaceP3LastName:
+    type: branch
+    link: false
+    addr: 0x13051C
+    func: P3HeroLastNameGet
+
+ReplaceP4LastName:
+    type: branch
+    link: false
+    addr: 0x130524
+    func: P4HeroLastNameGet
+
+ReplaceP3PLastName:
+    type: branch
+    link: false
+    addr: 0x13052C
+    func: P3PHeroLastNameGet
+
+ReplaceP5LastName:
+    type: branch
+    link: false
+    addr: 0x130534
+    func: P5HeroLastNameGet
+	
+ReplaceP3FirstName:
+    type: branch
+    link: false
+    addr: 0x1304CC
+    func: P3HeroFirstNameGet
+
+ReplaceP4FirstName:
+    type: branch
+    link: false
+    addr: 0x1304D4
+    func: P4HeroFirstNameGet
+
+ReplaceP3PFirstName:
+    type: branch
+    link: false
+    addr: 0x1304DC
+    func: P3PHeroFirstNameGet
+
+ReplaceP5FirstName:
+    type: branch
+    link: false
+    addr: 0x1304E4
+    func: P5HeroFirstNameGet
+	
+ReplaceP3FullName:
+    type: branch
+    link: false
+    addr: 0x240DC8
+    func: P3HeroFullNameGet
+
+ReplaceP4FullName:
+    type: branch
+    link: false
+    addr: 0x240DD0
+    func: P4HeroFullNameGet
+
+ReplaceP3PFullName:
+    type: branch
+    link: false
+    addr: 0x240DD8
+    func: P3PHeroFullNameGet
+
+ReplaceP5FullName:
+    type: branch
+    link: false
+    addr: 0x240DE0
+    func: P5HeroFullNameGet
+
+ReplaceP3FullerName:
+    type: branch
+    link: false
+    addr: 0x2A89FC
+    func: P3HeroFullNameGetter
+
+ReplaceP3LasterName:
+    type: branch
+    link: false
+    addr: 0x2A8A1C
+    func: P3HeroLastNameGetter
+
+ReplaceP3FirsterName:
+    type: branch
+    link: false
+    addr: 0x2A8A3C
+    func: P3HeroFirstNameGetter
+
+ReplaceP4FullerName:
+    type: branch
+    link: false
+    addr: 0x2A8A70
+    func: P4HeroFullNameGetter
+
+ReplaceP4LasterName:
+    type: branch
+    link: false
+    addr: 0x2A8A90
+    func: P4HeroLastNameGetter
+
+ReplaceP4FirsterName:
+    type: branch
+    link: false
+    addr: 0x2A8AB0
+    func: P4HeroFirstNameGetter
+
+ReplaceP3PFullerName:
+    type: branch
+    link: false
+    addr: 0x2A8AD0
+    func: P3PHeroFullNameGetter
+
+ReplaceP3PLasterName:
+    type: branch
+    link: false
+    addr: 0x2A8AF0
+    func: P3PHeroLastNameGetter
+
+ReplaceP3PFirsterName:
+    type: branch
+    link: false
+    addr: 0x2A8B10
+    func: P3PHeroFirstNameGetter
+
+ReplaceP5FullerName:
+    type: branch
+    link: false
+    addr: 0x2A8B30
+    func: P5HeroFullNameGetter
+
+ReplaceP5LasterName:
+    type: branch
+    link: false
+    addr: 0x2A8B50
+    func: P5HeroLastNameGetter
+
+ReplaceP5FirsterName:
+    type: branch
+    link: false
+    addr: 0x2A8B70
+    func: P5HeroFirstNameGetter
