@@ -2,147 +2,130 @@
 .align 4
 
 P3HeroLastNameGet:
-    ldr r0, =P3HeroLastName
+    ldr r0, =RenAmamiyaLastName
     bx lr
 	
 P4HeroLastNameGet:
-    ldr r0, =P4HeroLastName
+    ldr r0, =YuNarukamiLastName
     bx lr
 
 P3PHeroLastNameGet:
-    ldr r0, =P3PHeroLastName
+    ldr r0, =MakotoYukiLastName
     bx lr
 
 P5HeroLastNameGet:
-    ldr r0, =P5HeroLastName
+    ldr r0, =FeMCLastName
     bx lr
 
 P3HeroFirstNameGet:
-    ldr r0, =P3HeroFirstName
+    ldr r0, =RenAmamiyaFirstName
     bx lr
 	
 P4HeroFirstNameGet:
-    ldr r0, =P4HeroFirstName
+    ldr r0, =YuNarukamiFirstName
     bx lr
 
 P3PHeroFirstNameGet:
-    ldr r0, =P3PHeroFirstName
+    ldr r0, =MakotoYukiFirstName
     bx lr
 
 P5HeroFirstNameGet:
-    ldr r0, =P5HeroFirstName
+    ldr r0, =FeMCFirstName
     bx lr
 
 P3HeroFullNameGet:
-    ldr r0, =P3HeroFullName
+    ldr r0, =RenAmamiyaFullName
     bx lr
 	
 P4HeroFullNameGet:
-    ldr r0, =P4HeroFullName
+    ldr r0, =YuNarukamiFullName
     bx lr
 
 P3PHeroFullNameGet:
-    ldr r0, =P3PHeroFullName
+    ldr r0, =MakotoYukiFullName
     bx lr
 
 P5HeroFullNameGet:
-    ldr r0, =P5HeroFullName
+    ldr r0, =FeMCFullName
     bx lr
 
 P3HeroLastNameGetter:
-    ldr r0, =P3HeroLastName1
+    ldr r0, =RenAmamiyaLastName
     b 0x2A8A20
 	
 P4HeroLastNameGetter:
-    ldr r0, =P4HeroLastName1
+    ldr r0, =YuNarukamiLastName
     b 0x2A8A94
 
 P3PHeroLastNameGetter:
-    ldr r0, =P3PHeroLastName1
+    ldr r0, =MakotoYukiLastName
     b 0x2A8AF4
 
 P5HeroLastNameGetter:
-    ldr r0, =P5HeroLastName1
+    ldr r0, =FeMCLastName
     b 0x2A8B54
 
 P3HeroFirstNameGetter:
-    ldr r0, =P3HeroFirstName1
+    ldr r0, =RenAmamiyaFirstName
     b 0x2A8A40
 	
 P4HeroFirstNameGetter:
-    ldr r0, =P4HeroFirstName1
+    ldr r0, =YuNarukamiFirstName
     b 0x2A8AB4
 
 P3PHeroFirstNameGetter:
-    ldr r0, =P3PHeroFirstName1
+    ldr r0, =MakotoYukiFirstName
     b 0x2A8B14
 
 P5HeroFirstNameGetter:
-    ldr r0, =P5HeroFirstName1
+    ldr r0, =FeMCFirstName
     b 0x2A8B74
 
 P3HeroFullNameGetter:
-    ldr r0, =P3HeroFullName1
+    ldr r0, =RenAmamiyaFullName
     b 0x2A8A00
 	
 P4HeroFullNameGetter:
-    ldr r0, =P4HeroFullName1
+    ldr r0, =YuNarukamiFullName
     b 0x2A8A74
 
 P3PHeroFullNameGetter:
-    ldr r0, =P3PHeroFullName1
+    ldr r0, =MakotoYukiFullName
     b 0x2A8AD4
 
 P5HeroFullNameGetter:
-    ldr r0, =P5HeroFullName1
+    ldr r0, =FeMCFullName
     b 0x2A8B34
 
 .align 2
-P3HeroLastName:
-.asciz "Amamiya"
-P4HeroLastName:
-.asciz "Narukami"
-P3PHeroLastName:
-.asciz "Yuuki"
-P5HeroLastName:
-.asciz "Shiomi"
-P3HeroFirstName:
+RenAmamiyaFirstName:
 .asciz "Ren"
-P4HeroFirstName:
-.asciz "Yu"
-P3PHeroFirstName:
-.asciz "Makoto"
-P5HeroFirstName:
-.asciz "Kotone"
-P3HeroFullName:
-.asciz "Ren Amamiya"
-P4HeroFullName:
-.asciz "Yu Narukami"
-P3PHeroFullName:
-.asciz "Makoto Yuki"
-P5HeroFullName:
-.asciz "Kotone Shiomi"
-P3HeroLastName1:
+RenAmamiyaLastName:
 .asciz "Amamiya"
-P4HeroLastName1:
+RenAmamiyaFullName:
+.asciz "Ren Amamiya"
+
+YuNarukamiFirstName:
+.asciz "Yu"
+YuNarukamiLastName:
 .asciz "Narukami"
-P3PHeroLastName1:
+YuNarukamiFullName:
+.asciz "Yu Narukami"
+
+MakotoYukiFirstName:
+.asciz "Makoto"
+MakotoYukiLastName:
 .asciz "Yuki"
-P5HeroLastName1:
-.asciz "Shiomi"
-P3HeroFirstName1:
-.asciz "Ren"
-P4HeroFirstName1:
-.asciz "Yu"
-P3PHeroFirstName1:
-.asciz "Makoto"
-P5HeroFirstName1:
-.asciz "Kotone"
-P3HeroFullName1:
-.asciz "Ren Amamiya"
-P4HeroFullName1:
-.asciz "Yu Narukami"
-P3PHeroFullName1:
+MakotoYukiFullName:
 .asciz "Makoto Yuki"
-P5HeroFullName1:
+
+
+FeMCFirstName:
+.asciz "Kotone"
+FeMCLastName:
+.asciz "Shiomi"
+FeMCFullName:
 .asciz "Kotone Shiomi"
+
+CreditsString:
+.asciz "This patch was made by DeathChaos with the Help of TildeHat and Raytwo. Atlus please let us fit Yu Narukami into an input name next time k thnx"
