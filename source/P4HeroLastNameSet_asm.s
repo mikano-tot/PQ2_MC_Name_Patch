@@ -97,7 +97,22 @@ P5HeroFullNameGetter:
     ldr r0, =FeMCFullName
     b 0x2A8B34
 
+AddNewModCPK:
+    mov r1, #1
+    adr r0, DataCPK
+    bl 0x105E64
+	mov r1, #2
+    adr r0, ModCPK
+    bl 0x105E64
+	b 0x102DC0
+
 .align 2
+
+DataCPK:
+.asciz "data.cpk"
+ModCPK:
+.asciz "mod.cpk"
+
 RenAmamiyaFirstName:
 .asciz "Ren"
 RenAmamiyaLastName:
@@ -128,4 +143,4 @@ FeMCFullName:
 .asciz "Kotone Shiomi"
 
 CreditsString:
-.asciz "This patch was made by DeathChaos with the Help of TildeHat and Raytwo. Atlus please let us fit Yu Narukami into an input name next time k thnx"
+.asciz "This name patch was made by DeathChaos with the Help of TildeHat and Raytwo. Atlus please let us fit Yu Narukami into an input name next time k thnx"
