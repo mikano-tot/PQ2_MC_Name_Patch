@@ -1,4 +1,4 @@
-# Persona Q2 Name Patch
+# Persona Q2 Assembly Patches
 A set of assembly patches (patched in thanks to Magikoopa) for Persona Q2 (USA) that patches out the player name functions to allow the longer "canon" names that normally the player cannot fit into the name input box such as Yu Narukami to display via hardcoded name calls the same way other characters do.
 
 Names are as follow:  
