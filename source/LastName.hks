@@ -136,6 +136,12 @@ ReplaceP5LasterName:
     addr: 0x2A8B50
     func: P5HeroLastNameGetter
 
+ReplaceP5FirsterName:
+    type: branch
+    link: false
+    addr: 0x2A8B70
+    func: P5HeroFirstNameGetter
+
 ModCPKLoad:
     type: branch
     link: false
