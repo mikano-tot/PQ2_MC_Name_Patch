@@ -1,4 +1,4 @@
-# Persona Q2 Assembly Patches
+# Persona Q2 Name Patch
 A set of assembly patches (patched in thanks to Magikoopa) for Persona Q2 (USA) that patches out the player name functions to allow the longer "canon" names that normally the player cannot fit into the name input box such as Yu Narukami to display via hardcoded name calls the same way other characters do.
 
 Names are as follow:  
@@ -18,12 +18,6 @@ sd:/luma/titles/00040000001D7100/code.bin
 Note: It is suggested the player still enter the first names patched here, as they will be displayed in the save/load screen.
   
 To report any bugs or issues about names incorrectly appearing where they shouldn't, just open an issue on github and we can hopefully get it fixed.  
-
-As of version 1.2, this patch also has a mod.cpk patch bundled in!
-Simply create your own custom mod.cpk and place it in the romfs directory for easy mod loading and testing!  
-  
-  
-sd:/luma/titles/00040000001D7100/romfs/mod.cpk  
   
   
 Credits:  
