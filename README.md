@@ -1,4 +1,7 @@
-# Persona Q2 Name Patch
+# Persona Q2 Name Patch  
+(Note: If you want mod.cpk support it has been moved to here: https://github.com/DeathChaos25/PQ2_MOD_CPK_NAMES )  
+  
+  
 A set of assembly patches (patched in thanks to Magikoopa) for Persona Q2 (USA) that patches out the player name functions to allow the longer "canon" names that normally the player cannot fit into the name input box such as Yu Narukami to display via hardcoded name calls the same way other characters do.
 
 Names are as follow:  
